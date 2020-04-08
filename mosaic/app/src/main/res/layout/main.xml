@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top|center"
+	android:padding="6dp">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="画圈马赛克"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="24sp"
+		android:textColor="#FF096BFF"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:text="不规则马赛克"
+		android:layout_margin="10dp"
+		android:onClick="first"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:text="矩形高斯模糊"
+		android:onClick="two"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:text="关于mosaic"
+		android:layout_margin="10dp"
+		android:onClick="about"/>
+
+</LinearLayout>
+
